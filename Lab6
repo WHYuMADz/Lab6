@@ -1,0 +1,510 @@
+login as: ryanez
+Pre-authentication banner message from server:
+| Access to Brooklyn College computers is restricted to authorized users
+|         and approved educational and research purposes, only.
+End of banner message from server
+ryanez@146.245.252.28's password:
+Last login: Mon Oct  5 14:34:50 2020 from 70.23.34.201
+[ryanez@sol28 ~]$ ls
+Desktop    Downloads  Lab5   Newfiles  Public  Templates
+Documents  lab5       Music  Pictures  repo1   Videos
+[ryanez@sol28 ~]$ cd repo1
+[ryanez@sol28 repo1]$ echo "# Repo1" >> README.md
+[ryanez@sol28 repo1]$ git init
+Reinitialized existing Git repository in /users1/st/ryanez/repo1/.git/
+[ryanez@sol28 repo1]$ git add README.md
+[ryanez@sol28 repo1]$ git commit -m "Done"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ryanez@sol28.(none)')
+[ryanez@sol28 repo1]$ git branch -M main
+error: refname refs/heads/master not found
+fatal: Branch rename failed
+[ryanez@sol28 repo1]$ git remote add origin https://github.com/WHYuMADz/Repo1.git
+fatal: remote origin already exists.
+[ryanez@sol28 repo1]$ git push -u origin main
+Username for 'https://github.com': WHYuMADz
+Password for 'https://WHYuMADz@github.com':
+error: src refspec main does not match any.
+error: failed to push some refs to 'https://github.com/WHYuMADz/Repo1.git'
+[ryanez@sol28 repo1]$ git branch -M main
+error: refname refs/heads/master not found
+fatal: Branch rename failed
+[ryanez@sol28 repo1]$ git clone https://github.com/WHYuMADz/Lab6.git
+Cloning into 'Lab6'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+[ryanez@sol28 repo1]$ ls
+Lab6  README.md
+[ryanez@sol28 repo1]$ nano
+[ryanez@sol28 repo1]$ ls
+HelloWorld.java  Lab6  README.md
+[ryanez@sol28 repo1]$ git HelloWorld.java
+git: 'HelloWorld.java' is not a git command. See 'git --help'.
+[ryanez@sol28 repo1]$ git add HelloWorld.java
+[ryanez@sol28 repo1]$ git commit -m "Done"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ryanez@sol28.(none)')
+[ryanez@sol28 repo1]$ git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': WHYuMADz
+Password for 'https://WHYuMADz@github.com':
+No refs in common and none specified; doing nothing.
+Perhaps you should specify a branch such as 'master'.
+Everything up-to-date
+[ryanez@sol28 repo1]$ ls
+HelloWorld.java  Lab6  README.md
+[ryanez@sol28 repo1]$ mv HelloWorld.java Lab6
+[ryanez@sol28 repo1]$ ls
+Lab6  README.md
+[ryanez@sol28 repo1]$ cd Lab6
+[ryanez@sol28 Lab6]$ get add HelloWorld.java
+bash: get: command not found...
+Similar commands are::
+'git'
+'GET'
+[ryanez@sol28 Lab6]$ git add HelloWorld.java
+[ryanez@sol28 Lab6]$ git commit -m "Done"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ryanez@sol28.(none)')
+[ryanez@sol28 Lab6]$ git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': WHYuMADz
+Password for 'https://WHYuMADz@github.com':
+Everything up-to-date
+[ryanez@sol28 Lab6]$ git pull
+Already up-to-date.
+[ryanez@sol28 Lab6]$ login as: ryanez
+[ryanez@sol28 ~]$ ls
+Desktop    Downloads  Lab5   Newfiles  Public  Templates
+Documents  lab5       Music  Pictures  repo1   Videos
+[ryanez@sol28 ~]$ cd repo1
+[ryanez@sol28 repo1]$ echo "# Repo1" >> README.md
+[ryanez@sol28 repo1]$ git init
+Reinitialized existing Git repository in /users1/st/ryanez/repo1/.git/
+[ryanez@sol28 repo1]$ git add README.md
+[ryanez@sol28 repo1]$ git commit -m "Done"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ryanez@sol28.(none)')
+[ryanez@sol28 repo1]$ git branch -M main
+error: refname refs/heads/master not found
+fatal: Branch rename failed
+[ryanez@sol28 repo1]$ git remote add origin https://github.com/WHYuMADz/Repo1.git
+fatal: remote origin already exists.
+[ryanez@sol28 repo1]$ git push -u origin main
+Username for 'https://github.com': WHYuMADz
+Password for 'https://WHYuMADz@github.com':
+error: src refspec main does not match any.
+error: failed to push some refs to 'https://github.com/WHYuMADz/Repo1.git'
+[ryanez@sol28 repo1]$ git branch -M main
+error: refname refs/heads/master not found
+fatal: Branch rename failed
+[ryanez@sol28 repo1]$ git clone https://github.com/WHYuMADz/Lab6.git
+Cloning into 'Lab6'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+[ryanez@sol28 repo1]$ ls
+Lab6  README.md
+[ryanez@sol28 repo1]$ nano
+[ryanez@sol28 repo1]$ ls
+HelloWorld.java  Lab6  README.md
+[ryanez@sol28 repo1]$ git HelloWorld.java
+git: 'HelloWorld.java' is not a git command. See 'git --help'.
+[ryanez@sol28 repo1]$ git add HelloWorld.java
+[ryanez@sol28 repo1]$ git commit -m "Done"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ryanez@sol28.(none)')
+[ryanez@sol28 repo1]$ git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': WHYuMADz
+Password for 'https://WHYuMADz@github.com':
+No refs in common and none specified; doing nothing.
+Perhaps you should specify a branch such as 'master'.
+Everything up-to-date
+[ryanez@sol28 repo1]$ ls
+HelloWorld.java  Lab6  README.md
+[ryanez@sol28 repo1]$ mv HelloWorld.java Lab6
+[ryanez@sol28 repo1]$ ls
+Lab6  README.md
+[ryanez@sol28 repo1]$ cd Lab6
+[ryanez@sol28 Lab6]$ get add HelloWorld.java
+bash: get: command not found...
+Similar commands are::
+'git'
+'GET'
+[ryanez@sol28 Lab6]$ git add HelloWorld.java
+[ryanez@sol28 Lab6]$ git commit -m "Done"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ryanez@sol28.(none)')
+[ryanez@sol28 Lab6]$ git push
+warning: push.default is unset; its implicit value is changing in
+Git [ryanez@sol28 Lab6]$ Pre-authentication banner message from server:
+
+bash: Pre-authentication: command not found...
+[ryanez@sol28 Lab6]$ | Access to Brooklyn College computers is restricted to authorized users
+
+-bash: syntax error near unexpected token `|'
+[ryanez@sol28 Lab6]$ |         and approved educational and research purposes, only.
+
+-bash: syntax error near unexpected token `|'
+[ryanez@sol28 Lab6]$ End of banner message from server
+
+bash: End: command not found...
+[ryanez@sol28 Lab6]$ ryanez@146.245.252.28's password:
+
+> Last login: Mon Oct  5 14:34:50 2020 from 70.23.34.201
+
+> [ryanez@sol28 ~]$ ls
+
+> Desktop    Downloads  Lab5   Newfiles  Public  Templates
+
+> Documents  lab5       Music  Pictures  repo1   Videos
+
+> [ryanez@sol28 ~]$ cd repo1
+> [ryanez@sol28 repo1]$ echo "# Repo1" >> README.md
+> [ryanez@sol28 repo1]$ git init
+> Reinitialized existing Git repository in /users1/st/ryanez/repo1/.git/
+> [ryanez@sol28 repo1]$ git add README.md
+> [ryanez@sol28 repo1]$ git commit -m "Done"
+>
+> *** Please tell me who you are.
+>
+> Run
+>
+>   git config --global user.email "you@example.com"
+>   git config --global user.name "Your Name"
+>
+> to set your account's default identity.
+-bash: ryanez@146.245.252.28s password:
+Last login: Mon Oct  5 14:34:50 2020 from 70.23.34.201
+[ryanez@sol28 ~]$ ls
+Desktop    Downloads  Lab5   Newfiles  Public  Templates
+Documents  lab5       Music  Pictures  repo1   Videos
+[ryanez@sol28 ~]$ cd repo1
+[ryanez@sol28 repo1]$ echo "# Repo1" >> README.md
+[ryanez@sol28 repo1]$ git init
+Reinitialized existing Git repository in /users1/st/ryanez/repo1/.git/
+[ryanez@sol28 repo1]$ git add README.md
+[ryanez@sol28 repo1]$ git commit -m "Done"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your accounts: File name too long
+[ryanez@sol28 Lab6]$ Omit --global to set the identity only in this repository.
+bash: Omit: command not found...
+[ryanez@sol28 Lab6]$
+[ryanez@sol28 Lab6]$ fatal: unable to auto-detect email address (got 'ryanez@sol28.(none)')
+-bash: syntax error near unexpected token `('
+[ryanez@sol28 Lab6]$ [ryanez@sol28 repo1]$ git branch -M main
+bash: [ryanez@sol28: command not found...
+[ryanez@sol28 Lab6]$ error: refname refs/heads/master not found
+bash: error:: command not found...
+[ryanez@sol28 Lab6]$ fatal: Branch rename failed
+bash: fatal:: command not found...
+[ryanez@sol28 Lab6]$ [ryanez@sol28 repo1]$ git remote add origin https://github.com/WHYuMADz/Repo1.git
+bash: [ryanez@sol28: command not found...
+[ryanez@sol28 Lab6]$ fatal: remote origin already exists.
+bash: fatal:: command not found...
+[ryanez@sol28 Lab6]$ [ryanez@sol28 repo1]$ git push -u origin main
+bash: [ryanez@sol28: command not found...
+[ryanez@sol28 Lab6]$ Username for 'https://github.com': WHYuMADz
+bash: Username: command not found...
+[ryanez@sol28 Lab6]$ Password for 'https://WHYuMADz@github.com':
+bash: Password: command not found...
+[ryanez@sol28 Lab6]$ error: src refspec main does not match any.
+bash: error:: command not found...
+[ryanez@sol28 Lab6]$ error: failed to push some refs to 'https://github.com/WHYuMADz/Repo1.git'
+bash: error:: command not found...
+[ryanez@sol28 Lab6]$ [ryanez@sol28 repo1]$ git branch -M main
+bash: [ryanez@sol28: command not found...
+[ryanez@sol28 Lab6]$ error: refname refs/heads/master not found
+bash: error:: command not found...
+[ryanez@sol28 Lab6]$ fatal: Branch rename failed
+bash: fatal:: command not found...
+[ryanez@sol28 Lab6]$ [ryanez@sol28 repo1]$ git clone https://github.com/WHYuMADz/Lab6.git
+bash: [ryanez@sol28: command not found...
+[ryanez@sol28 Lab6]$ Cloning into 'Lab6'...
+bash: Cloning: command not found...
+[ryanez@sol28 Lab6]$ remote: Enumerating objects: 3, done.
+bash: remote:: command not found...
+[ryanez@sol28 Lab6]$ remote: Counting objects: 100% (3/3), done.
+-bash: syntax error near unexpected token `('
+[ryanez@sol28 Lab6]$ remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+-bash: syntax error near unexpected token `('
+[ryanez@sol28 Lab6]$ Unpacking objects: 100% (3/3), done.
+-bash: syntax error near unexpected token `('
+[ryanez@sol28 Lab6]$ [ryanez@sol28 repo1]$ ls
+bash: [ryanez@sol28: command not found...
+[ryanez@sol28 Lab6]$ Lab6  README.md
+bash: Lab6: command not found...
+[ryanez@sol28 Lab6]$ [ryanez@sol28 repo1]$ nano
+bash: [ryanez@sol28: command not found...
+[ryanez@sol28 Lab6]$ [ryanez@sol28 repo1]$ ls
+bash: [ryanez@sol28: command not found...
+[ryanez@sol28 Lab6]$ HelloWorld.java  Lab6  README.md
+bash: HelloWorld.java: command not found...
+[ryanez@sol28 Lab6]$ [ryanez@sol28 repo1]$ git HelloWorld.java
+bash: [ryanez@sol28: command not found...
+[ryanez@sol28 Lab6]$ git: 'HelloWorld.java' is not a git command. See 'git --help'.
+bash: git:: command not found...
+Similar command is: 'git'
+[ryanez@sol28 Lab6]$ [ryanez@sol28 repo1]$ git add HelloWorld.java
+bash: [ryanez@sol28: command not found...
+[ryanez@sol28 Lab6]$ [ryanez@sol28 repo1]$ git commit -m "Done"
+bash: [ryanez@sol28: command not found...
+[ryanez@sol28 Lab6]$
+[ryanez@sol28 Lab6]$ *** Please tell me who you are.
+bash: HelloWorld.java: command not found...
+[ryanez@sol28 Lab6]$
+[ryanez@sol28 Lab6]$ Run
+bash: Run: command not found...
+[ryanez@sol28 Lab6]$
+[ryanez@sol28 Lab6]$   git config --global user.email "you@example.com"
+[ryanez@sol28 Lab6]$   git config --global user.name "Your Name"
+[ryanez@sol28 Lab6]$
+[ryanez@sol28 Lab6]$ to set your account's default identity.
+> Omit --global to set the identity only in this repository.
+>
+> fatal: unable to auto-detect email address (got 'ryanez@sol28.(none)')
+-bash: syntax error near unexpected token `('
+[ryanez@sol28 Lab6]$ [ryanez@sol28 repo1]$ git push
+bash: [ryanez@sol28: command not found...
+[ryanez@sol28 Lab6]$ warning: push.default is unset; its implicit value is changing in
+bash: warning:: command not found...
+bash: its: command not found...
+[ryanez@sol28 Lab6]$ Git 2.0 from 'matching' to 'simple'. To squelch this message
+bash: Git: command not found...
+Similar command is: 'git'
+[ryanez@sol28 Lab6]$ and maintain the current behavior after the default changes, use:
+bash: and: command not found...
+[ryanez@sol28 Lab6]$
+[ryanez@sol28 Lab6]$   git config --global push.default matching
+[ryanez@sol28 Lab6]$
+[ryanez@sol28 Lab6]$ To squelch this message and adopt the new behavior now, use:
+bash: To: command not found...
+[ryanez@sol28 Lab6]$
+[ryanez@sol28 Lab6]$   git config --global push.default simple
+[ryanez@sol28 Lab6]$
+[ryanez@sol28 Lab6]$ See 'git help config' and search for 'push.default' for further information.
+bash: See: command not found...
+[ryanez@sol28 Lab6]$ (the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+> 'current' instead of 'simple' if you sometimes use older versions of Git)
+bash: the: command not found...
+bash: current: command not found...
+[ryanez@sol28 Lab6]$
+[ryanez@sol28 Lab6]$ Username for 'https://github.com': WHYuMADz
+bash: Username: command not found...
+[ryanez@sol28 Lab6]$ Password for 'https://WHYuMADz@github.com':
+bash: Password: command not found...
+[ryanez@sol28 Lab6]$ No refs in common and none specified; doing nothing.
+bash: No: command not found...
+bash: doing: command not found...
+[ryanez@sol28 Lab6]$ Perhaps you should specify a branch such as 'master'.
+bash: Perhaps: command not found...
+[ryanez@sol28 Lab6]$ Everything up-to-date
+bash: Everything: command not found...
+[ryanez@sol28 Lab6]$ [ryanez@sol28 repo1]$ ls
+bash: [ryanez@sol28: command not found...
+[ryanez@sol28 Lab6]$ HelloWorld.java  Lab6  README.md
+bash: HelloWorld.java: command not found...
+[ryanez@sol28 Lab6]$ [ryanez@sol28 repo1]$ mv HelloWorld.java Lab6
+bash: [ryanez@sol28: command not found...
+[ryanez@sol28 Lab6]$ [ryanez@sol28 repo1]$ ls
+bash: [ryanez@sol28: command not found...
+[ryanez@sol28 Lab6]$ Lab6  README.md
+bash: Lab6: command not found...
+[ryanez@sol28 Lab6]$ [ryanez@sol28 repo1]$ cd Lab6
+bash: [ryanez@sol28: command not found...
+[ryanez@sol28 Lab6]$ [ryanez@sol28 Lab6]$ get add HelloWorld.java
+bash: [ryanez@sol28: command not found...
+[ryanez@sol28 Lab6]$ bash: get: command not found...
+bash: bash:: command not found...
+Similar command is: 'bash'
+[ryanez@sol28 Lab6]$ Similar commands are::
+bash: Similar: command not found...
+[ryanez@sol28 Lab6]$ 'git'
+usage: git [--version] [--help] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p|--paginate|--no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+The most commonly used git commands are:
+   add        Add file contents to the index
+   bisect     Find by binary search the change that introduced a bug
+   branch     List, create, or delete branches
+   checkout   Checkout a branch or paths to the working tree
+   clone      Clone a repository into a new directory
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   fetch      Download objects and refs from another repository
+   grep       Print lines matching a pattern
+   init       Create an empty Git repository or reinitialize an existing one
+   log        Show commit logs
+   merge      Join two or more development histories together
+   mv         Move or rename a file, a directory, or a symlink
+   pull       Fetch from and merge with another repository or a local branch
+   push       Update remote refs along with associated objects
+   rebase     Forward-port local commits to the updated upstream head
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+   show       Show various types of objects
+   status     Show the working tree status
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+'git help -a' and 'git help -g' lists available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+[ryanez@sol28 Lab6]$ 'GET'
+Usage: GET [-options] <url>...
+    -m <method>   use method for the request (default is 'GET')
+    -f            make request even if GET believes method is illegal
+    -b <base>     Use the specified URL as base
+    -t <timeout>  Set timeout value
+    -i <time>     Set the If-Modified-Since header on the request
+    -c <conttype> use this content-type for POST, PUT, CHECKIN
+    -a            Use text mode for content I/O
+    -p <proxyurl> use this as a proxy
+    -P            don't load proxy settings from environment
+    -H <header>   send this HTTP header (you can specify several)
+    -C <username>:<password>
+                  provide credentials for basic authentication
+
+    -u            Display method and URL before any response
+    -U            Display request headers (implies -u)
+    -s            Display response status code
+    -S            Display response status chain (implies -u)
+    -e            Display response headers (implies -s)
+    -E            Display whole chain of headers (implies -S and -U)
+    -d            Do not display content
+    -o <format>   Process HTML content in various ways
+
+    -v            Show program version
+    -h            Print this message
+[ryanez@sol28 Lab6]$ [ryanez@sol28 Lab6]$ git add HelloWorld.java
+bash: [ryanez@sol28: command not found...
+[ryanez@sol28 Lab6]$ [ryanez@sol28 Lab6]$ git commit -m "Done"
+bash: [ryanez@sol28: command not found...
+[ryanez@sol28 Lab6]$
+[ryanez@sol28 Lab6]$ *** Please tell me who you are.
+bash: HelloWorld.java: command not found...
+[ryanez@sol28 Lab6]$
+[ryanez@sol28 Lab6]$ Run
+bash: Run: command not found...
+[ryanez@sol28 Lab6]$
+[ryanez@sol28 Lab6]$   git config --global user.email "you@example.com"
+[ryanez@sol28 Lab6]$   git config --global user.name "Your Name"
+[ryanez@sol28 Lab6]$
+[ryanez@sol28 Lab6]$ to set your account's default identity.
+> Omit --global to set the identity only in this repository.
+>
+> fatal: unable to auto-detect email address (got 'ryanez@sol28.(none)')
+-bash: syntax error near unexpected token `('
+[ryanez@sol28 Lab6]$ [ryanez@sol28 Lab6]$ git push
